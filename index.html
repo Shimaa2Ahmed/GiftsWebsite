@@ -1,0 +1,211 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-4" href="#">logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto px-5  mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recipients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SignIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SignUp</a>
+          </li>
+        </ul>
+      </div>
+      <div class="form d-flex justify-content-center">
+        <div class="Input-search  ">
+          <input onkeyup="search(this.value)" class="form-control me-2 rounded-pill  " id="searchInput" type="search"
+            placeholder="Enter your occassion" aria-label="Search">
+          <!-- <div class="searchIcon ">  <i class="fas fa-search text-primary"></i>
+                        </div> -->
+
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+  </nav>
+  <!-- section of products -->
+  <section id="BstProduct">
+    <div class="buttonProducts d-flex justify-content-center py-5">
+      <button id="bestProduct" type="button" class="btn btn-outline-danger rounded-pill mx-4 text-danger ">Best
+        Sellers</button>
+      <button id="saleProduct" type="button" class="btn btn-outline-danger rounded-pill mx-4 text-danger">Sale</button>
+      <button id="lastProduct" type="button" class="btn btn-outline-danger rounded-pill mx-4 text-danger">Last
+        Products</button>
+    </div>
+
+    <div class="container d-flex justify-content-center   ">
+
+      <div class="row  " id="rowData">
+
+      </div>
+    </div>
+  </section>
+  <!--section of searching items-->
+  <div class="container d-flex justify-content-center   ">
+
+    <div class="row  " id="occassionRow">
+
+
+    </div>
+
+
+  </div>
+  <!---------- ------ -->
+
+  <!--section occassion type-->
+  <section id="Main-images">
+    <div class="occassion-type text-center py-5">
+      <h3>What is the occasion</h3>
+    </div>
+    <div class="container d-flex justify-content-center">
+
+      <div class="row">
+        <div class="col-md-3 ">
+          <div class="occasion-container">
+            <img src="images/image19.jpg" alt="">
+            <span class="d-block text-center py-3">
+              <a href="#">Wedding</a>
+            </span>
+          </div>
+
+        </div>
+        <div class="col-md-3   ">
+          <div class="occasion-container">
+            <img src="images/image20.jpg" alt="">
+            <span class="d-block text-center py-3">
+              <a href="#">Anniversary</a>
+            </span>
+
+          </div>
+
+        </div>
+        <div class="col-md-3  ">
+          <div class="occasion-container">
+            <img src="images/image17.jpg" alt="">
+           <span class="d-block text-center py-3">
+              <a href="#">Birthday</a>
+            </span>
+          </div>
+
+        </div>
+        <div class="col-md-3 ">
+          <div class="occasion-container">
+            <img src="images/38.jpg" alt="">
+            <span class="d-block text-center py-3">
+              <a href="#">Graduation</a>
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- the end of occasssion type -->
+    <!-- start of section main image & subImage -->
+    <div class="container py-5">
+
+      <div class="row">
+        <div class="gifts  ">
+          <img class="main-image w-100  " src="images/image11.jpg" alt="gift1">
+          <img class="sub-images   " src="images/image11.jpg" alt="gift1">
+          <img class="sub-images  " src="images/31.jpg" alt="gift2">
+          <img class="sub-images " src="images/33.jpg" alt="gift3">
+          <img class="sub-images  " src="images/image10.jpg" alt="gift4">
+          <img class="sub-images   " src="images/image17.jpg" alt="gift5">
+          <img class="sub-images  " src="images/34.jpg" alt="gift6">
+          <img class="sub-images  " src="images/image9.jpg" alt="gift7">
+          <img class="sub-images   " src="images/30.jpg" alt="gift8">
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- footer section -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="ourGiftry-info ">
+            <h2>our Giftry</h2>
+            <span>
+              <p>logo caption</p>
+            </span>
+            <span>
+              <i class="fas fa-phone-alt fs-6"></i>
+
+              +099567484
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-geo-alt d-block mt-2" viewBox="0 0 16 16">
+              <path
+                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+            </svg>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <div class="feedback-input justify-content-center ">
+            <input class="form-control rounded-pill h-auto py-2 bg-light btn-outline-danger  " type="text"
+              placeholder="Enter your feedback">
+            <div class="send"><button class="btn btn-outline-light   rounded-pill ">Send</button>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="">
+
+            </div>
+          </div>
+
+        </div>
+        <div class="social-icons d-flex justify-content-center mt-5 ">
+          <i class="fab fa-facebook mx-2 fs-5"></i>
+          <i class="fab fa-twitter mx-2 fs-5"></i>
+          <i class="fab fa-instagram-square mx-2 fs-5"></i>
+        </div>
+      </div>
+  </footer>
+
+
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
